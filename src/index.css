@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 570px;
+  --breakpoint-md: 776px;
+  --breakpoint-lg: 990px;
+  --breakpoint-xl: 1120px;
+  --font-inter: "inter", sans-serif;
+  --font-poppins: "poppins", sans-serif;
+}
+
+@utility container {
+  margin: auto;
+}
+
+body {
+  background-color: #010a20;
+  color: white;
+}
+
+
+/* nav hover start*/
+.customize {
+  position: relative;
+}
+
+.customize::before,
+.customize::after {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 100%;
+  border-bottom: 2.5px solid #1d9bf0;
+  transition: 0.4s linear;
+  transform: scaleX(0);
+}
+
+.customize::before {
+  transform-origin: left;
+}
+
+.customize::after {
+  transform-origin: right;
+}
+
+.customize:hover::after,
+.customize:hover::before {
+  transform: scaleX(1);
+}
+
+/* nav hover end */
