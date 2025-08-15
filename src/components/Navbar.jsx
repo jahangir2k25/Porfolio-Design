@@ -6,7 +6,7 @@ import Flex from './Flex';
 const Navbar = () => {
     return (
         <>
-            <nav className='font-poppins'>
+            <nav className='font-poppins lg:flex hidden'>
                 <Container>
                     <Flex className='justify-between items-center py-6'>
                         <div>
@@ -16,9 +16,6 @@ const Navbar = () => {
                             <ul className='flex justify-center items-center gap-8 text-lg font-semibold uppercase cursor-pointer'>
                                 <NavLink to='/'>
                                     <li className='customize'>home</li>
-                                </NavLink>
-                                <NavLink to='/services'>
-                                    <li className='customize'>services</li>
                                 </NavLink>
                                 <NavLink to='/projects'>
                                     <li className='customize'>projects</li>
