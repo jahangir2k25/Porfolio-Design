@@ -26,33 +26,36 @@ body {
 
 
 /* nav hover start*/
-.customize {
-  position: relative;
+@media (min-width: 990px) {
+  .customize {
+    position: relative;
+  }
+
+  .customize::before,
+  .customize::after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    border-bottom: 2.5px solid #1d9bf0;
+    transition: 0.4s linear;
+    transform: scaleX(0);
+  }
+
+  .customize::before {
+    transform-origin: left;
+  }
+
+  .customize::after {
+    transform-origin: right;
+  }
+
+  .customize:hover::after,
+  .customize:hover::before {
+    transform: scaleX(1);
+  }
 }
 
-.customize::before,
-.customize::after {
-  content: "";
-  position: absolute;
-  top: 25px;
-  left: 0;
-  width: 100%;
-  border-bottom: 2.5px solid #1d9bf0;
-  transition: 0.4s linear;
-  transform: scaleX(0);
-}
-
-.customize::before {
-  transform-origin: left;
-}
-
-.customize::after {
-  transform-origin: right;
-}
-
-.customize:hover::after,
-.customize:hover::before {
-  transform: scaleX(1);
-}
 
 /* nav hover end */

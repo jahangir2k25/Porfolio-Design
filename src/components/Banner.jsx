@@ -13,9 +13,9 @@ const Banner = () => {
       </div>
 
       <Container className="relative">
-        <div className='absolute bottom-25 pl-0 lg:pl-0 w-full'>
-          <div className="lg:flex grid grid-cols-1 justify-between items-center">
-            <div className="lg:w-170 w-70">
+        <div className='absolute lg:bottom-25 -bottom-30 w-full'>
+          <div className="flex flex-col-reverse lg:flex-row justify-between gap-15 lg:gap-0 items-center">
+            <div className="lg:w-170 w-72">
               <h1 className='text-4xl'>Hi, I'm <span className='text-[#ffc400] font-poppins font-bold'>Jahangir Hosain</span></h1>
               <h2 className='text-2xl text-[#1d9bf0] font-poppins py-2.5'>Front-end Developer</h2>
 

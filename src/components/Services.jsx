@@ -9,8 +9,8 @@ const Services = () => {
     return (
         <>
             <Container>
-                <h2 className='text-4xl text-center lg:pt-5 pt-150'>My <span className='text-[#1d9bf0]'>Services</span></h2>
-                <div className='grid grid-cols-1 lg:grid-cols-3 gap-6 p-6 lg:mt-10'>
+                <h2 className='text-4xl text-center lg:pt-5 pt-50'>My <span className='text-[#1d9bf0]'>Services</span></h2>
+                <div className='flex flex-col lg:flex-row gap-6 p-6 lg:mt-10 justify-between items-center'>
                     <div>
                         <Card
                             img={Img1}
