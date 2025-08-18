@@ -13,7 +13,7 @@ const Banner = () => {
       </div>
 
       <Container className="relative">
-        <div className='absolute lg:bottom-12 -bottom-30 w-full'>
+        <div className='absolute lg:bottom-12 -bottom-80 w-full'>
           <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-15 lg:gap-0">
             <div className="lg:w-170 w-72">
               <h1 className='text-4xl'>Hi, I'm <span className='text-[#ffc400] font-poppins font-bold'>Jahangir Hosain</span></h1>
