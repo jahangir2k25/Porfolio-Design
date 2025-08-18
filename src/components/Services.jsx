@@ -8,7 +8,7 @@ import Img3 from '../assets/card3.jpg';
 const Services = () => {
     return (
         <>
-            <Container>
+            <Container className="mt-40 lg:mt-0">
                 <h2 className='text-4xl text-center lg:pt-5 pt-50'>My <span className='text-[#1d9bf0]'>Services</span></h2>
                 <div className='flex flex-col lg:flex-row gap-6 p-6 lg:mt-10 justify-between items-center'>
                     <div>
