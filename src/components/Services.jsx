@@ -2,8 +2,8 @@ import React from 'react'
 import Container from './Container';
 import Card from './Card';
 import Img1 from '../assets/Card1.jpg';
-import Img2 from '../assets/Card2.jpg';
-import Img3 from '../assets/Card3.jpg';
+import Img2 from '../assets/card2.jpg';
+import Img3 from '../assets/card3.jpg';
 
 const Services = () => {
     return (
