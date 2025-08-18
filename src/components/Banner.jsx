@@ -8,13 +8,13 @@ import Galaxy from './Galaxy';
 const Banner = () => {
   return (
     <section>
-      <div className='relative w-full h-[100vh] overflow-hidden'>
+      <div className='relative w-full lg:h-[500px] h-[700px]'>
         <Galaxy />
       </div>
 
       <Container className="relative">
-        <div className='absolute lg:bottom-25 -bottom-30 w-full'>
-          <div className="flex flex-col-reverse lg:flex-row justify-between gap-15 lg:gap-0 items-center">
+        <div className='absolute lg:bottom-12 -bottom-30 w-full'>
+          <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-15 lg:gap-0">
             <div className="lg:w-170 w-72">
               <h1 className='text-4xl'>Hi, I'm <span className='text-[#ffc400] font-poppins font-bold'>Jahangir Hosain</span></h1>
               <h2 className='text-2xl text-[#1d9bf0] font-poppins py-2.5'>Front-end Developer</h2>
