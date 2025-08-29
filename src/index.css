@@ -23,7 +23,52 @@ body {
   background-color: #010a20;
   color: white;
 }
+/* .bg {
+  background-image: url(./assets/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+} */
 
+/* profile img animate */
+/* .profile {
+width:190px ;
+height: 400px;
+position: relative;
+display: flex;
+place-content: center;
+place-items: center;
+overflow: hidden;
+border-radius: 20px;
+}
+.profile img {
+  z-index: 1;
+}
+.profile::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  background-image: linear-gradient(180deg,rgb(255, 253, 244), rgba(255, 216, 23, 0.596));
+  animation: rotBGimg 3s linear infinite;
+  transition: all 0.2s linear;
+}
+@keyframes rotBGimg{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.profile::after {
+  content: '';
+  position: absolute;
+  inset: 5px;
+  border-radius: 15px;
+} */
 
 /* nav hover start*/
 @media (min-width: 990px) {
@@ -56,6 +101,5 @@ body {
     transform: scaleX(1);
   }
 }
-
 
 /* nav hover end */

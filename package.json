@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ramonak/react-progress-bar": "^5.4.0",
     "@tailwindcss/vite": "^4.1.11",
     "flowbite": "^3.1.2",
     "ogl": "^1.0.11",

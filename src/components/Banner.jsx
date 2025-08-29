@@ -8,7 +8,7 @@ import Galaxy from './Galaxy';
 const Banner = () => {
   return (
     <section>
-      <div className='relative w-full lg:h-[500px] h-[700px]'>
+      <div className='relative w-full lg:h-[500px] h-[700px] opacity-70'>
         <Galaxy />
       </div>
 
@@ -27,8 +27,8 @@ const Banner = () => {
               </div>
             </div>
 
-            <div>
-              <img className='shadow-[#1d9bf0] shadow-lg h-100 rounded-lg' src={SelfImg} alt="#" />
+            <div className='profile'>
+              <img className='shadow-[rgb(29,155,240)] shadow-lg h-100 rounded-lg' src={SelfImg} alt="#" />
             </div>
           </div>
         </div>
